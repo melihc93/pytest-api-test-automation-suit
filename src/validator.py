@@ -15,11 +15,11 @@ class ENPRequests:
 
     def _send_post_request(self):
         from data.mock_response import NotDeployNode
+        converted_list = [str(element) for element in self._query_params]
         if deployStatus:
             result = requests.post(
-                url="http://" + self._url + self._endpoint_path,
+                url="http://" + self._url + self._endpoint_path + "?params=" + ",".join(converted_list),
                 headers=self._headers,
-                params=self._body
             )
         else:
             result = NotDeployNode(

@@ -1,9 +1,9 @@
 api_test:
   version: 1.0.0
 endpoint_conf:
-  ip_port: https://melih/
+  ip_port: localhost:8383/
 auth:
   username: not_defined
   password: not_defined
 deploy:
-  status: False
+  status: True

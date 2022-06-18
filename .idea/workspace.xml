@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a68a6e-f70a-478c-94c7-da4fd6f155b3" name="Changes" comment="readme.md modified">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mock_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/mock_response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_post.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +17,10 @@
         <entry key="$PROJECT_DIR$/.." value="api-python" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2A9sQo5A3aGenl56HEtS9Jx6jML" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_post.TestPost.test_division_return_successfully_code_for_valid_request">
+  <component name="RunManager" selected="Python tests.pytest for test_post.TestPost.test_add_endpoint_returns_error_when_input_parameters_out_of_scope">
     <configuration name="Python tests for test_post.TestGet.test_sum_endpoint_returns_error_when_input_parameters_out_of_scope" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="api-python-dir" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,34 +61,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_post.TestPost.test_add_endpoint_returns_error_when_input_parameters_out_of_scope" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="api-python-dir" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_post.TestPost.test_add_endpoint_returns_error_when_input_parameters_out_of_scope&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_post.TestPost.test_division_endpoint_returns_error_when_input_parameters_out_of_scope" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="api-python-dir" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_post.TestPost.test_division_endpoint_returns_error_when_input_parameters_out_of_scope&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_post.TestPost.test_division_return_successfully_code_for_valid_request" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="api-python-dir" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,13 +75,45 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_post.TestPost.test_add_endpoint_returns_error_when_input_parameters_out_of_scope" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest-api-test-automation-suit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_post.TestPost.test_add_endpoint_returns_error_when_input_parameters_out_of_scope&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_post.TestPost.test_non_header_returns_bad_request" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest-api-test-automation-suit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_post.TestPost.test_non_header_returns_bad_request&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_post.TestPost.test_add_endpoint_returns_error_when_input_parameters_out_of_scope" />
+        <item itemvalue="Python tests.pytest for test_post.TestPost.test_non_header_returns_bad_request" />
         <item itemvalue="Python tests.Python tests for test_post.TestPost.test_division_return_successfully_code_for_valid_request" />
         <item itemvalue="Python tests.Python tests for test_post.TestPost.test_add_endpoint_is_working_successfully" />
         <item itemvalue="Python tests.Python tests for test_post.TestGet.test_sum_endpoint_returns_error_when_input_parameters_out_of_scope" />
-        <item itemvalue="Python tests.Python tests for test_post.TestPost.test_division_endpoint_returns_error_when_input_parameters_out_of_scope" />
-        <item itemvalue="Python tests.Python tests for test_post.TestPost.test_add_endpoint_returns_error_when_input_parameters_out_of_scope" />
       </list>
     </recent_temporary>
   </component>
@@ -158,5 +158,16 @@
     <MESSAGE value="new cases added, suit starts test successfully, mock-response.py should be modified" />
     <MESSAGE value="readme.md modified" />
     <option name="LAST_COMMIT_MESSAGE" value="readme.md modified" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/validator.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
