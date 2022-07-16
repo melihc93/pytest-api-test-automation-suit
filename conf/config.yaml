@@ -6,4 +6,4 @@ auth:
   username: not_defined
   password: not_defined
 deploy:
-  status: True
+  status: False
