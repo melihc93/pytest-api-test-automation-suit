@@ -130,3 +130,6 @@ dmypy.json
 
 #allure report
 allure-report
+
+#vs-code
+.vscode
